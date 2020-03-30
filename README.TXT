@@ -1,17 +1,16 @@
-UygulamayÄ± main.cpp dosyasÄ±nÄ± compile ederek baÅŸlatabilirsiniz.
+Uygulamayı main.cpp dosyasını compile ederek başlatabilirsiniz.
 
 #################################################
 
-graphics.h kÃ¼tÃ¼phanesi yÃ¼klÃ¼ olmalÄ±dÄ±r. Yoksa Ã§alÄ±ÅŸmaz.
+graphics.h kütüphanesi yüklü olmalıdır. Yoksa çalışmaz.
 
 #################################################
-
-SeÃ§im ekranÄ±nda kullanÄ±labilecek komutlar
+Seçim ekranında kullanılabilecek komutlar
 arc
 line
 circle
 rectangle
-rectangle_d (rectangle_dolu fonksiyonu Ã§aÄŸrÄ±lÄ±r. rectangle_dolu fonksiyonu bana aittir.)
+rectangle_d (rectangle_dolu fonksiyonu çağrılır. rectangle_dolu fonksiyonu bana aittir.)
 setcolor
 setfillstyle
 floodfill
@@ -19,20 +18,40 @@ exit
 
 ##################################################
 
-floodfill kullanÄ±rken Ã¶nce setfillstyle ayarlarÄ±nÄ± yapÄ±n. KenarlÄ±k rengi kÄ±smÄ±nÄ± ise Ã¶nceden Ã§izilmiÅŸ ÅŸeklin Ã§eper rengine 
-gÃ¶re ayarlayÄ±n. (floodfill iÃ§ iÃ§e yapÄ±larda sorunlar Ã§Ä±kartabilmektedir bu nedenle dÄ±ÅŸtan iÃ§e doÄŸru gelmeye dikkat ediniz.)
+Kullanılabilir renkler
+black
+blue
+green
+cyan
+red
+magenta
+brown
+lightgray
+darkgray
+lightblue
+lightgreen
+lightcyan
+lightred
+lightmagenta
+yellow
+white
 
 ##################################################
 
-initwindow(500,500,"WORK AREA"); kÄ±smÄ±nÄ± deÄŸiÅŸtirerek Ã§izim ekranÄ±nÄ± yeniden boyutlandÄ±rabilir veya isimlendirebilirsiniz.
+floodfill kullanırken önce setfillstyle ayarlarını yapın. Kenarlık rengi kısmını ise önceden çizilmiş şeklin çeper rengine 
+göre ayarlayın. (floodfill iç içe yapılarda sorunlar çıkartabilmektedir bu nedenle dıştan içe doğru gelmeye dikkat ediniz.)
 
 ##################################################
 
-loglara ana dizindeki "log.txt" dosyasÄ±ndan ulaÅŸabilirsiniz.
+initwindow(500,500,"WORK AREA"); kısmını değiştirerek çizim ekranını yeniden boyutlandırabilir veya isimlendirebilirsiniz.
 
 ##################################################
 
-Birden fazla Ã§izim yapÄ±p ayrÄ± ayrÄ± kaydetmek isterseniz karÄ±ÅŸmamasÄ± iÃ§in main.cpp'deki icerik(); den Ã¶nce
+loglara ana dizindeki "log.txt" dosyasından ulaşabilirsiniz.
+
+##################################################
+
+Birden fazla çizim yapıp ayrı ayrı kaydetmek isterseniz karışmaması için main.cpp'deki icerik(); den önce
 
 dosya << "###NEW PROJECT###\n";
 
@@ -40,6 +59,6 @@ ekleyebilirsiniz.
 
 ##################################################
 
-Åimdilik bu kadar. TeÅŸekkÃ¼r ederim. 
+Şimdilik bu kadar. Teşekkür ederim. 
 
 SCY
