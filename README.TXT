@@ -1,13 +1,17 @@
-Uygulamayı main.cpp dosyasını compile ederek başlatabilirsiniz.
+UygulamayÄ± main.cpp dosyasÄ±nÄ± compile ederek baÅŸlatabilirsiniz.
 
 #################################################
 
-Seçim ekranında kullanılabilecek komutlar
+graphics.h kÃ¼tÃ¼phanesi yÃ¼klÃ¼ olmalÄ±dÄ±r. Yoksa Ã§alÄ±ÅŸmaz.
+
+#################################################
+
+SeÃ§im ekranÄ±nda kullanÄ±labilecek komutlar
 arc
 line
 circle
 rectangle
-rectangle_d (rectangle_dolu fonksiyonu çağrılır. rectangle_dolu fonksiyonu bana aittir.)
+rectangle_d (rectangle_dolu fonksiyonu Ã§aÄŸrÄ±lÄ±r. rectangle_dolu fonksiyonu bana aittir.)
 setcolor
 setfillstyle
 floodfill
@@ -15,20 +19,20 @@ exit
 
 ##################################################
 
-floodfill kullanırken önce setfillstyle ayarlarını yapın. Kenarlık rengi kısmını ise önceden çizilmiş şeklin çeper rengine 
-göre ayarlayın. (floodfill iç içe yapılarda sorunlar çıkartabilmektedir bu nedenle dıştan içe doğru gelmeye dikkat ediniz.)
+floodfill kullanÄ±rken Ã¶nce setfillstyle ayarlarÄ±nÄ± yapÄ±n. KenarlÄ±k rengi kÄ±smÄ±nÄ± ise Ã¶nceden Ã§izilmiÅŸ ÅŸeklin Ã§eper rengine 
+gÃ¶re ayarlayÄ±n. (floodfill iÃ§ iÃ§e yapÄ±larda sorunlar Ã§Ä±kartabilmektedir bu nedenle dÄ±ÅŸtan iÃ§e doÄŸru gelmeye dikkat ediniz.)
 
 ##################################################
 
-initwindow(500,500,"WORK AREA"); kısmını değiştirerek çizim ekranını yeniden boyutlandırabilir veya isimlendirebilirsiniz.
+initwindow(500,500,"WORK AREA"); kÄ±smÄ±nÄ± deÄŸiÅŸtirerek Ã§izim ekranÄ±nÄ± yeniden boyutlandÄ±rabilir veya isimlendirebilirsiniz.
 
 ##################################################
 
-loglara ana dizindeki "log.txt" dosyasından ulaşabilirsiniz.
+loglara ana dizindeki "log.txt" dosyasÄ±ndan ulaÅŸabilirsiniz.
 
 ##################################################
 
-Birden fazla çizim yapıp ayrı ayrı kaydetmek isterseniz karışmaması için main.cpp'deki icerik(); den önce
+Birden fazla Ã§izim yapÄ±p ayrÄ± ayrÄ± kaydetmek isterseniz karÄ±ÅŸmamasÄ± iÃ§in main.cpp'deki icerik(); den Ã¶nce
 
 dosya << "###NEW PROJECT###\n";
 
@@ -36,6 +40,6 @@ ekleyebilirsiniz.
 
 ##################################################
 
-Şimdilik bu kadar. Teşekkür ederim. 
+Åimdilik bu kadar. TeÅŸekkÃ¼r ederim. 
 
 SCY
